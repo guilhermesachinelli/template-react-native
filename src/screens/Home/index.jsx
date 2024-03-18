@@ -11,7 +11,7 @@ export default function Home() {
       <Title title="Home" />
 
       <TouchButton route="Profile" title="Go to Profile" data={user} />
-
+      <TouchButton route="Test" title="Go to Test" />
       <TouchButton route="Category" title="Go to Category" />
     </View>
   );

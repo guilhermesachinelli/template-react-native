@@ -10,9 +10,10 @@ export default function Category() {
     <View style={styles.container}>
       <Title title="Category" />
 
-      <TouchButton route="Category" title="Go to Category" />
-
-      <TouchButton route="Profile" title="Go to Profile" data={user} />
+      <TouchButton route="Home" title="Go to Home" />
+      <TouchButton route="Test" title="Go to Test" />
+      {/* <TouchButton route="Profile" title="Go to Profile" data={user} /> */}
     </View>
+    
   );
 }
